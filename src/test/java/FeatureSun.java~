@@ -1,0 +1,12 @@
+public class FeatureSun {
+    String Color;
+    String Size;
+    String Temperature;
+
+    public FeatureSun(String Color, String Size, String Temperature) {
+        this.Color = Color;
+        this.Size = Size;
+        this.Temperature = Temperature;
+    }
+
+}

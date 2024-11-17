@@ -6,6 +6,12 @@ public class SolarSystem {
         bb.Sun = "Sun";
         bb.Stars = "Stars";
         System.out.println("Solar System: " + bb.Planet + " " + bb.Moon + " " + bb.Sun + " " + bb.Stars);
+
+        FeatureSun fs = new FeatureSun();
+        fs.Color = "Yellow";
+        fs.Size = "Small";
+        fs.Temperature = "Warm";
+        System.out.println("Sun: " + fs.Color + " " + fs.Size + " " + fs.Temperature);
     }
 
 }
