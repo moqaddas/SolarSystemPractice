@@ -18,6 +18,13 @@ public class SolarSystem {
         p1.Size = "Large";
         p1.Temperature = "Cold";
         System.out.println("Planet: " + p1.Color + " " + p1.Size + " " + p1.Temperature);
+
+        Planet2 Dracula = new Planet2();
+        Dracula.Color = "Red";
+        Dracula.Size = "Medium";
+        Dracula.Temperature = "Hot";
+        System.out.println("Planet: " + Dracula.Color + " " + Dracula.Size + " " + Dracula.Temperature);
+
     }
 
 }
